@@ -28,30 +28,32 @@ This project demonstrates how to build an **AI-powered FAQ chatbot** that can au
 ---
 ## Project Structure
 
-
-Azure_AI-Powered-FAQ-Chatbot/
-
 AI-FAQ-Chatbot/
 
-│── app.py                      
+│── app.py
 
-│── azure_config.py            
+│── azure_config.py
 
 │── requirements.txt
 
 │── services/
 
-│   ├── cognitive_search.py     
+│   ├── cognitive_search.py
 
-│   ├── openai_chat.py          
+│   ├── openai_chat.py
 
-│   └── bot_connector.py
+│   └── bot_connector.py   # optional
+
+│── data/
+
+│   └── FAQ.csv            # Knowledge base (questions + answers)
 
 │── README.md
 
 │── assets/
 
-│   └── screenshots/            
+│   └── screenshots/
+          
 
 
 
