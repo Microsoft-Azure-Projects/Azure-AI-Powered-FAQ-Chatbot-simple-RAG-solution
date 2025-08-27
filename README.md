@@ -15,7 +15,14 @@ This project demonstrates how to build an **AI-powered FAQ chatbot** that can au
 3. Query is passed to **Azure Cognitive Search (FAQ Knowledge Base)**  
 4. Best-matched FAQ answer is retrieved  
 5. Answer is refined with **Azure OpenAI (GPT-35/4)** into natural language  
-6. Bot replies back to the user  
+6. Bot replies back to the user
+
+   flowchart LR
+    A[faq.csv (Knowledge Base)] --> B[Azure Cognitive Search (FAQ Index)]
+    B --> C[search_faq() in Streamlit]
+    C --> D[Azure OpenAI (Refine Response)]
+    D --> E[Streamlit UI: Display Answer]
+
 
 ---
 
