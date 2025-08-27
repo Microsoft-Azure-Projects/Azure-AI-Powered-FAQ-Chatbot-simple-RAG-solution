@@ -17,6 +17,8 @@ This project demonstrates how to build an **AI-powered FAQ chatbot** that can au
 5. Answer is refined with **Azure OpenAI (GPT-35/4)** into natural language  
 6. Bot replies back to the user
 
+  **This is a classic RAG pipeline: retrieval → generation → display**
+
    flowchart LR
    
     A[faq.csv (Knowledge Base)] --> B[Azure Cognitive Search (FAQ Index)]
