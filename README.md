@@ -11,7 +11,7 @@ This project demonstrates how to build an **AI-powered FAQ chatbot** that can au
 ## 🏗️ Architecture
 
 1. User asks a question in the chatbot interface  
-2. **Azure Bot Service** receives the query  
+2. **Azure Bot Service** receives the query  (future scope)
 3. Query is passed to **Azure Cognitive Search (FAQ Knowledge Base)**  
 4. Best-matched FAQ answer is retrieved  
 5. Answer is refined with **Azure OpenAI (GPT-35/4)** into natural language  
