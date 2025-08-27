@@ -1,0 +1,21 @@
+# Core
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Azure Cognitive Search (for QnA knowledge base)
+azure-search-documents==11.4.0b9  
+
+# Azure Identity & Authentication
+azure-identity==1.17.1
+
+# Azure OpenAI
+openai==1.43.0
+azure-ai-openai==1.0.0b8  
+
+# Azure Bot Service (via DirectLine API)
+botbuilder-core==4.14.8
+botbuilder-ai==4.14.8
+botbuilder-schema==4.14.8
+
+# Web app / UI
+streamlit==1.37.0
