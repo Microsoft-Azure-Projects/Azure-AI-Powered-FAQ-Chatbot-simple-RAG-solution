@@ -1,0 +1,31 @@
+id,question,answer
+1,What is Azure Cognitive Search?,Azure Cognitive Search is a cloud search service that provides indexing, querying, and AI-powered search capabilities for structured and unstructured data.
+2,What is Azure OpenAI Service?,Azure OpenAI Service allows developers to access OpenAI's language models via Azure for building AI-powered applications.
+3,What is Azure Bot Service?,Azure Bot Service enables you to build, deploy, and manage intelligent bots across channels like Teams, Web Chat, and other platforms.
+4,What is Azure Cognitive Services?,Azure Cognitive Services are pre-built AI APIs that allow developers to add vision, speech, language, and decision-making capabilities to applications.
+5,How do I create an Azure Cognitive Search index?,You define an index in the Azure Portal or via SDKs/APIs by specifying fields (like question and answer) and then upload your data.
+6,What are the pricing tiers of Azure Cognitive Search?,Azure Cognitive Search has Free (F1) for development, and Standard (S1/S2) and higher tiers for production workloads with larger datasets.
+7,What is Azure Form Recognizer?,Form Recognizer extracts text, key-value pairs, and tables from forms and documents using AI.
+8,Can Azure OpenAI generate responses for chatbots?,Yes, you can use Azure OpenAI to generate conversational responses and integrate them with chatbots.
+9,What programming languages can I use with Azure AI services?,Python, C#, Java, JavaScript/Node.js, and REST APIs.
+10,How do I secure my Azure Cognitive Search data?,Use API keys, role-based access control (RBAC), private endpoints, and encryption at rest and in transit.
+11,What is Azure Speech Service?,Azure Speech Service allows speech-to-text, text-to-speech, and speech translation using AI models.
+12,What is Azure Text Analytics?,Text Analytics is a Cognitive Service that provides sentiment analysis, key phrase extraction, language detection, and named entity recognition.
+13,What is Azure Computer Vision?,Computer Vision extracts information from images, including object detection, image description, and OCR capabilities.
+14,Can I combine Cognitive Search with OpenAI?,Yes, you can retrieve documents from Cognitive Search and then refine responses using Azure OpenAI models for better conversational answers.
+15,What is Semantic Search in Azure Cognitive Search?,Semantic Search uses AI to understand the meaning behind queries and documents, providing more relevant search results.
+16,How do I connect Azure Bot Service to Teams?,You configure the bot channels in Azure Bot Service and enable Microsoft Teams channel integration.
+17,What is Azure Anomaly Detector?,Anomaly Detector detects unusual patterns and deviations in time series data using AI.
+18,What is Azure Personalizer?,Personalizer provides real-time personalization using reinforcement learning to optimize content, recommendations, or experiences.
+19,What is Azure QnA Maker?,QnA Maker creates a question-answer layer over your knowledge base, which can be connected to chatbots.
+20,How do I import FAQ data into Cognitive Search?,You can upload FAQ data via Azure Portal, Python SDK, REST API, or using Blob Storage as a data source.
+21,What is Azure Language Service?,Azure Language Service provides advanced natural language processing (NLP) capabilities like entity recognition, sentiment analysis, and summarization.
+22,Can I use Azure OpenAI for code generation?,Yes, Azure OpenAI models like Codex can generate code snippets and assist in programming tasks.
+23,What is Azure Immersive Reader?,Immersive Reader provides text-to-speech, translation, and accessibility features for better content readability.
+24,How do I authenticate requests to Azure Cognitive Services?,You can authenticate using API keys, Azure Active Directory (AAD), or Managed Identities.
+25,What is the difference between OpenAI GPT models and Cognitive Services?,OpenAI GPT models generate language outputs, while Cognitive Services provide pre-built AI APIs for specific tasks like vision, speech, and language analysis.
+26,What is Azure Video Analyzer?,Video Analyzer extracts insights from video streams including motion detection, face detection, and activity recognition.
+27,Can I use Azure AI services in Python notebooks?,Yes, all Azure AI services provide Python SDKs and REST APIs for integration in notebooks and applications.
+28,What is Azure Translator?,Azure Translator provides real-time text translation between multiple languages.
+29,How can I optimize search relevance in Cognitive Search?,You can use scoring profiles, synonyms, filters, and semantic search to improve search relevance.
+30,What is the difference between Azure Bot Service and Azure OpenAI?,Azure Bot Service provides the framework to build and deploy bots, while Azure OpenAI provides the language intelligence to make bots conversational.
