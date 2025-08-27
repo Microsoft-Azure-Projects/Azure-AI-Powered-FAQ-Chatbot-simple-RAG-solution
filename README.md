@@ -18,11 +18,15 @@ This project demonstrates how to build an **AI-powered FAQ chatbot** that can au
 6. Bot replies back to the user
 
    flowchart LR
+   
     A[faq.csv (Knowledge Base)] --> B[Azure Cognitive Search (FAQ Index)]
+   
     B --> C[search_faq() in Streamlit]
+   
     C --> D[Azure OpenAI (Refine Response)]
+   
     D --> E[Streamlit UI: Display Answer]
-
+   
 
 ---
 
@@ -57,9 +61,7 @@ AI-FAQ-Chatbot/
 
 │── README.md
 
-│── assets/
-
-│   └── screenshots/
+│  --- screenshots
           
 
 
