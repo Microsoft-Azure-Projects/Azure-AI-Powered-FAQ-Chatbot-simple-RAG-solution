@@ -12,7 +12,7 @@ def search_faq(query: str):
     results = client.search(
         search_text=query,
         top=3,
-        query_type="simple",   # You can also try "semantic" if enabled
+        query_type="simple",   # can also try "semantic" if enabled
         select=["question", "answer"],  # Fetch only needed fields
     )
     
@@ -23,3 +23,4 @@ def search_faq(query: str):
         answers.append(ans)
     
     return answers
+
